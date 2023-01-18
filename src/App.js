@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Body from './Components/Body';
+import Card from './Components/Card';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Body />
+      <Card imgsrc="1.png" title="Life lessons with Katie Zaferes" stars="5" noReview="6.0" country="USA" price={136}/>
     </div>
   );
 }

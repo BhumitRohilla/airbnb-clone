@@ -1,0 +1,39 @@
+.grid{
+    max-width: 1000px;
+    margin: auto;
+    padding:  0 10% 0 10%;
+    display: grid;
+    grid-template: 100%/19% 19% 19% 19% 19%;
+    grid-gap: 1%;
+    margin-top: 50px;
+}
+
+.gridItem{
+    width: 100%;
+}
+
+.head{
+    font-size: 36 px;
+    font-weight: 6000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.para{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gridImg{
+    width: inherit;
+}
+
+.gridImg1{
+    margin-top: 39%;
+}
+
+.gridImg2{
+    margin-top: 30%;
+}
+.gridImg3{
+    margin-top: 20%;
+}

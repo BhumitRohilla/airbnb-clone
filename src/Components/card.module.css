@@ -1,0 +1,16 @@
+.gray{
+    color: gray;
+}
+.card{
+    width: 176px;
+    font-size: 12px;
+}
+.img{
+    width: 100%;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
