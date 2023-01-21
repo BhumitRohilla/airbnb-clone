@@ -8,33 +8,33 @@ function Body() {
         <div className={styles.gridItem}>
           <img
             className={`${styles.gridImg} ${styles.gridImg1}`}
-            src="1.png"
+            src={process.env.PUBLIC_URL + "/1.png"}
             alt=""
           />
         </div>
         <div className={styles.gridItem}>
-          <img className={styles.gridImg} src="2.png" alt="" />
-          <img className={styles.gridImg} src="3.png" alt="" />
+          <img className={styles.gridImg} src={process.env.PUBLIC_URL + "/2.png"} alt="" />
+          <img className={styles.gridImg} src={process.env.PUBLIC_URL + "/3.png"} alt="" />
         </div>
         <div className={styles.gridItem}>
           <img
             className={`${styles.gridImg} ${styles.gridImg2}`}
-            src="4.png"
+            src={process.env.PUBLIC_URL + "/4.png"}
             alt=""
           />
-          <img className={styles.gridImg} src="5.png" alt="" />
+          <img className={styles.gridImg} src={process.env.PUBLIC_URL + "/5.png"} alt="" />
         </div>
         <div className={styles.gridItem}>
-          <img className={styles.gridImg} src="6.png" alt="" />
-          <img className={styles.gridImg} src="7.png" alt="" />
+          <img className={styles.gridImg} src={process.env.PUBLIC_URL + "/6.png" }alt="" />
+          <img className={styles.gridImg} src={process.env.PUBLIC_URL + "/7.png"} alt="" />
         </div>
         <div className={styles.gridItem}>
           <img
             className={`${styles.gridImg} ${styles.gridImg3}`}
-            src="8.png"
+            src={process.env.PUBLIC_URL + "/8.png"}
             alt=""
           />
-          <img className={styles.gridImg} src="9.png" alt="" />
+          <img className={styles.gridImg} src={process.env.PUBLIC_URL + "/9.png"} alt="" />
         </div>
       </div>
       <div style={{ margin: "50px 0px 0px 3%", width: "347px" }}>

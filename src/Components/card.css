@@ -1,0 +1,42 @@
+.gray{
+    color: gray;
+}
+.card{
+    width: 175px;
+    font-size: 12px;
+    position: relative;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.status{
+    position: absolute; 
+    top: 10px;
+    left: 10px;
+    height: 20px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 2px 0px 2px;
+}
+
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card--price {
+    margin-top: auto;
+}

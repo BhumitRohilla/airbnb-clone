@@ -4,6 +4,8 @@
     box-shadow: 1px 2.99px 7.46px rgba(0,0,0,0.1);
     display: flex;
     align-items: center;
+    width: 100%;
+    overflow: hidden;
 }
 
 .img{

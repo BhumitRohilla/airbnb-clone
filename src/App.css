@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    flex-wrap: nowrap;
+    margin-bottom: 50px;
+    gap: 20px;
+    overflow-x:auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
